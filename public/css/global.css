@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #718fc8;
+}
+
+a {
+    color: aliceblue;
+}
+
+label {
+    color: rgb(0, 0, 126);
+}
+
+input {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: medium;
+}
+
+button {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: aliceblue;
+    font-size: medium;
+    transition: 0.2s;
+}
+
+button.confirm {
+   background-color: #1b3493; 
+}
+button.confirm:hover {
+    background-color: #142770; 
+ }
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
