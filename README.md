@@ -21,7 +21,7 @@ Tecnologia:
 
 ## Acadêmicos
 
-- Arthur Vinicius da Silva Bertossi;
+- [Arthur Vinicius da Silva Bertossi](https://github.com/arthurbertossi);
 - [Gabriel Donizetti Dário](https://github.com/GDDario);
 - [José Bernardes Stella d’Avila Netto](https://github.com/nettodavila).
 
