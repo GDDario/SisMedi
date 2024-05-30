@@ -2,6 +2,8 @@
 
 session_start();
 
+include "../../config.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -21,24 +23,24 @@ session_start();
     <main>
         <img src="../../img/logo-sismed.png" class="logo" />
 
-        <form method="post">
+        <form method="post" action="../autenticacao/../../../aux/fazer-login.php">
             <div class="input-field">
                 <label for="email">Email</label>
-                <input id="email" type="email" required>
+                <input id="email" name="email" type="email" required>
             </div>
 
             <div class="input-field">
-                <label for="password">Senha</label>
-                <input id="password" type="password" required>
+                <label for="senha">Senha</label>
+                <input id="senha" name="senha" type="password" required>
             </div>
 
             <div class="stay-connected-field">
-                <input id="stay-connected" type="checkbox" required>
+                <input id="stay-connected" type="checkbox" name="stay-connected">
                 <label for="stay-connected">Permanecer conectado</label>
             </div>
 
             <button class="login confirm">Login</button>
-            
+
             <a href="#">Esqueci minha senha</a>
         </form>
     </main>
