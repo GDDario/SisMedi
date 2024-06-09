@@ -23,7 +23,7 @@ include "../../config.php";
     <main>
         <img src="../../img/logo-sismed.png" class="logo" />
 
-        <form method="post" action="../autenticacao/../../../aux/fazer-login.php">
+        <form method="post" action="../autenticacao/../../../helper/fazer-login.php">
             <div class="input-field">
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" required>
@@ -39,7 +39,7 @@ include "../../config.php";
                 <label for="stay-connected">Permanecer conectado</label>
             </div>
 
-            <button class="login confirm">Login</button>
+            <button class="login confirmar">Login</button>
 
             <a href="#">Esqueci minha senha</a>
         </form>

@@ -1,0 +1,39 @@
+.container-tabela {
+    
+}
+
+.filtro {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.filtro .filtrar {
+    color: #000;
+}
+
+.tabela-1 {
+    width: 100%;
+    color: #000;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    border-collapse: collapse
+}
+
+.tabela-1 tr {
+    border-bottom: 1px solid #686868;
+    /* outline: thin solid */
+}
+
+.tabela-1 tr:nth-child(odd) {
+    background-color: #ebebeb;
+}
+
+.tabela-1 tr:nth-child(even) {
+    background-color: #dbdbdb;
+}
+
+.tabela-1 td {
+    padding: 4px 8px;
+    border-right: 1px solid #686868;
+}
